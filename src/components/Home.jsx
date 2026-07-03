@@ -72,6 +72,7 @@ export default function Home({ onOrder }) {
         </div>
 
         <div className="hero-inner">
+          <img src="/logo.png" alt={R.name} className="hero-logo" />
           <span className="hero-badge">📍 {R.location}</span>
           <h1 className="hero-title">
             <span className="line l1">Swad</span>
